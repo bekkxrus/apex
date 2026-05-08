@@ -1,0 +1,301 @@
+<svg width="1440" height="3360" viewBox="0 0 1440 3360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .font { font-family: Inter, Arial, Helvetica, sans-serif; }
+      .navy { fill: #111F3A; }
+      .red { fill: #C82A3E; }
+      .muted { fill: #5E6676; }
+      .white { fill: #FFFFFF; }
+      .title { font-weight: 800; letter-spacing: -0.02em; }
+      .label { font-weight: 700; letter-spacing: 0.08em; }
+      .shadow { filter: drop-shadow(0 16px 24px rgba(17,31,58,0.14)); }
+    </style>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1440" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1530"/>
+      <stop offset="0.54" stop-color="#172A4F"/>
+      <stop offset="1" stop-color="#25395D"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="906" y1="146" x2="1258" y2="562" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#EAF0F9" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="photoBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9BC9F7"/>
+      <stop offset="1" stop-color="#13335F"/>
+    </linearGradient>
+    <linearGradient id="photoWarm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4D7A1"/>
+      <stop offset="1" stop-color="#9E5E34"/>
+    </linearGradient>
+    <linearGradient id="sectionBg" x1="0" y1="0" x2="1440" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F8FC"/>
+      <stop offset="1" stop-color="#EDF2F8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="3360" fill="#F0F3F8"/>
+
+  <!-- Desktop landing page frame -->
+  <g id="Apex Houzz Landing Page - Desktop">
+    <rect x="120" y="80" width="1200" height="3200" rx="0" fill="#FFFFFF" class="shadow"/>
+
+    <!-- Navigation -->
+    <g id="Navigation">
+      <rect x="120" y="80" width="1200" height="88" fill="#101E39"/>
+      <g id="Logo" class="font">
+        <path d="M184 139L206 106L228 139H215L206 124L197 139H184Z" fill="#FFFFFF"/>
+        <path d="M222 108H235V140H222V128H210V117H222V108Z" fill="#FFFFFF"/>
+        <text x="172" y="151" fill="#C82A3E" font-size="18" font-weight="800">APEX</text>
+        <text x="222" y="151" fill="#FFFFFF" font-size="18" font-weight="800">HOUZZ</text>
+      </g>
+      <g id="Nav links" class="font" font-size="15" font-weight="700" fill="#FFFFFF">
+        <text x="502" y="134">SERVICES</text>
+        <text x="624" y="134">SUBTO DEALS</text>
+        <text x="776" y="134">FINANCING</text>
+        <text x="915" y="134">ABOUT</text>
+        <text x="1018" y="134">CONTACT</text>
+      </g>
+      <rect x="1136" y="106" width="122" height="38" rx="4" fill="#C82A3E"/>
+      <text x="1163" y="131" class="font" fill="#FFFFFF" font-size="14" font-weight="800">APPLY NOW</text>
+    </g>
+
+    <!-- Hero -->
+    <g id="Hero Section">
+      <rect x="120" y="168" width="1200" height="650" fill="url(#heroBg)"/>
+      <path d="M120 632C270 547 410 546 552 587C714 633 864 597 1016 480C1130 392 1228 362 1320 375V818H120V632Z" fill="#223D68" opacity="0.55"/>
+      <path d="M670 260L874 188L1070 278L1248 236V818H670V260Z" fill="#FFFFFF" opacity="0.08"/>
+      <path d="M752 350H1084V818H752V350Z" fill="#FFFFFF" opacity="0.07"/>
+      <path d="M807 298H1030V818H807V298Z" fill="#FFFFFF" opacity="0.06"/>
+      <rect x="120" y="168" width="1200" height="650" fill="#07142E" opacity="0.22"/>
+
+      <g id="Hero copy" class="font">
+        <text x="190" y="315" fill="#FFFFFF" font-size="55" font-weight="900" letter-spacing="-1.8">
+          <tspan x="190" dy="0">HARNESSING</tspan>
+          <tspan x="190" dy="58">PROPERTY</tspan>
+          <tspan x="190" dy="58">OPPORTUNITIES,</tspan>
+          <tspan x="190" dy="58">ONE LEAD AT A</tspan>
+          <tspan x="190" dy="58">TIME.</tspan>
+        </text>
+        <text x="190" y="640" fill="#E8EDF6" font-size="28" font-weight="500">Complete Real Estate Solutions.</text>
+        <rect x="190" y="686" width="174" height="46" rx="4" fill="#C82A3E"/>
+        <text x="219" y="716" fill="#FFFFFF" font-size="14" font-weight="800">GET STARTED</text>
+        <rect x="382" y="686" width="202" height="46" rx="4" stroke="#FFFFFF" stroke-width="2"/>
+        <text x="414" y="716" fill="#FFFFFF" font-size="14" font-weight="800">FREE CALCULATOR</text>
+      </g>
+
+      <g id="Hero lead form" class="font">
+        <rect x="866" y="266" width="354" height="384" rx="16" fill="url(#glass)" class="shadow"/>
+        <text x="904" y="323" fill="#111F3A" font-size="28" font-weight="900">Complete Real Estate</text>
+        <text x="904" y="356" fill="#111F3A" font-size="28" font-weight="900">Solutions.</text>
+        <rect x="904" y="391" width="278" height="44" rx="5" fill="#FFFFFF" stroke="#CCD5E2"/>
+        <text x="922" y="419" fill="#6A7280" font-size="15">Name</text>
+        <rect x="904" y="449" width="278" height="44" rx="5" fill="#FFFFFF" stroke="#CCD5E2"/>
+        <text x="922" y="477" fill="#6A7280" font-size="15">Email</text>
+        <rect x="904" y="507" width="278" height="72" rx="5" fill="#FFFFFF" stroke="#CCD5E2"/>
+        <text x="922" y="535" fill="#6A7280" font-size="15">I am...</text>
+        <rect x="904" y="596" width="278" height="48" rx="5" fill="#C82A3E"/>
+        <text x="1006" y="626" fill="#FFFFFF" font-size="15" font-weight="800">Submit</text>
+        <rect x="904" y="660" width="278" height="46" rx="5" fill="none" stroke="#111F3A" stroke-width="2"/>
+        <text x="988" y="690" fill="#111F3A" font-size="15" font-weight="800">Free Flip Calculator</text>
+      </g>
+    </g>
+
+    <!-- Services -->
+    <g id="Services Grid">
+      <rect x="120" y="818" width="1200" height="610" fill="#FFFFFF"/>
+      <text x="588" y="898" class="font title" fill="#111F3A" font-size="42">SERVICES GRID</text>
+      <g id="Service card - Subto" class="font shadow">
+        <rect x="205" y="972" width="306" height="330" rx="12" fill="#FFFFFF"/>
+        <rect x="205" y="972" width="306" height="126" rx="12" fill="url(#photoWarm)"/>
+        <path d="M205 1086H511V1098H205V1086Z" fill="#FFFFFF"/>
+        <circle cx="350" cy="1034" r="32" fill="#FFFFFF" opacity="0.24"/>
+        <path d="M323 1036C344 1009 363 1007 378 1028C386 1039 399 1040 413 1026" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+        <text x="300" y="1154" fill="#111F3A" font-size="24" font-weight="900">SUBTO DEALS</text>
+        <text x="260" y="1193" fill="#5E6676" font-size="15" text-anchor="middle">
+          <tspan x="358" dy="0">Creative purchase structures</tspan>
+          <tspan x="358" dy="19">that help buyers and sellers</tspan>
+          <tspan x="358" dy="19">move forward faster.</tspan>
+        </text>
+        <rect x="286" y="1241" width="144" height="42" rx="4" fill="#C82A3E"/>
+        <text x="319" y="1268" fill="#FFFFFF" font-size="13" font-weight="800">LEARN MORE</text>
+      </g>
+      <g id="Service card - Financing" class="font shadow">
+        <rect x="567" y="972" width="306" height="330" rx="12" fill="#FFFFFF"/>
+        <g transform="translate(667 1010)" stroke="#111F3A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 90V58"/>
+          <path d="M50 90V38"/>
+          <path d="M90 90V18"/>
+          <path d="M8 18L46 44L92 0"/>
+          <circle cx="92" cy="0" r="9" fill="#111F3A"/>
+        </g>
+        <text x="648" y="1154" fill="#111F3A" font-size="24" font-weight="900">INNOVATIVE</text>
+        <text x="642" y="1181" fill="#111F3A" font-size="24" font-weight="900">FINANCING</text>
+        <text fill="#5E6676" font-size="15" text-anchor="middle">
+          <tspan x="720" y="1217">Flexible financing strategies</tspan>
+          <tspan x="720" dy="19">that make real ownership</tspan>
+          <tspan x="720" dy="19">more accessible.</tspan>
+        </text>
+        <rect x="648" y="1261" width="144" height="42" rx="4" fill="#C82A3E"/>
+        <text x="681" y="1288" fill="#FFFFFF" font-size="13" font-weight="800">LEARN MORE</text>
+      </g>
+      <g id="Service card - Lead Generation" class="font shadow">
+        <rect x="929" y="972" width="306" height="330" rx="12" fill="#FFFFFF"/>
+        <g transform="translate(1014 1013)" fill="#111F3A">
+          <path d="M26 30L58 54L42 75L10 51C3 46 2 36 8 29C13 22 22 21 26 30Z"/>
+          <path d="M116 30L84 54L100 75L132 51C139 46 140 36 134 29C129 22 120 21 116 30Z"/>
+          <path d="M44 80L64 57H78L98 80L84 94L72 82L60 94L44 80Z"/>
+        </g>
+        <text x="997" y="1154" fill="#111F3A" font-size="24" font-weight="900">LEAD GENERATION</text>
+        <text fill="#5E6676" font-size="15" text-anchor="middle">
+          <tspan x="1082" y="1193">Targeted lead systems that</tspan>
+          <tspan x="1082" dy="19">connect motivated sellers,</tspan>
+          <tspan x="1082" dy="19">buyers, and investors.</tspan>
+        </text>
+        <rect x="1010" y="1241" width="144" height="42" rx="4" fill="#C82A3E"/>
+        <text x="1043" y="1268" fill="#FFFFFF" font-size="13" font-weight="800">LEARN MORE</text>
+      </g>
+    </g>
+
+    <!-- Property preferences -->
+    <g id="Property Preferences Match">
+      <rect x="120" y="1428" width="1200" height="620" fill="url(#sectionBg)"/>
+      <text x="425" y="1524" class="font title" fill="#111F3A" font-size="45">PROPERTY PREFERENCES MATCH</text>
+      <text x="582" y="1566" class="font" fill="#111F3A" font-size="27" font-weight="500">We find what fits you.</text>
+      <g id="Property cards" class="font">
+        <g class="shadow">
+          <rect x="200" y="1648" width="230" height="294" rx="14" fill="#FFFFFF"/>
+          <rect x="220" y="1668" width="190" height="208" rx="12" fill="url(#photoBlue)"/>
+          <rect x="260" y="1710" width="94" height="158" fill="#244D7D" opacity="0.88"/>
+          <g fill="#BFE1FF">
+            <rect x="275" y="1728" width="18" height="18"/>
+            <rect x="312" y="1728" width="18" height="18"/>
+            <rect x="275" y="1766" width="18" height="18"/>
+            <rect x="312" y="1766" width="18" height="18"/>
+            <rect x="275" y="1804" width="18" height="18"/>
+            <rect x="312" y="1804" width="18" height="18"/>
+          </g>
+          <rect x="220" y="1876" width="190" height="46" rx="0" fill="#111F3A"/>
+          <text x="286" y="1906" fill="#FFFFFF" font-size="18" font-weight="800">Condos</text>
+        </g>
+        <g class="shadow">
+          <rect x="464" y="1648" width="230" height="294" rx="14" fill="#FFFFFF"/>
+          <rect x="484" y="1668" width="190" height="208" rx="12" fill="url(#photoWarm)"/>
+          <path d="M506 1816L579 1740L652 1816V1868H506V1816Z" fill="#8B5A37"/>
+          <path d="M530 1790L579 1740L628 1790" stroke="#F5D7A5" stroke-width="10" stroke-linecap="round"/>
+          <rect x="564" y="1814" width="30" height="54" fill="#3D2D27"/>
+          <rect x="484" y="1876" width="190" height="46" rx="0" fill="#111F3A"/>
+          <text x="535" y="1906" fill="#FFFFFF" font-size="18" font-weight="800">Mansions</text>
+        </g>
+        <g class="shadow">
+          <rect x="728" y="1648" width="230" height="294" rx="14" fill="#FFFFFF"/>
+          <rect x="748" y="1668" width="190" height="208" rx="12" fill="#D8E5C2"/>
+          <path d="M777 1818L843 1764L908 1818V1870H777V1818Z" fill="#8C9A5B"/>
+          <path d="M792 1800L843 1764L894 1800" stroke="#70543E" stroke-width="9"/>
+          <rect x="820" y="1828" width="38" height="42" fill="#F4F0C8"/>
+          <path d="M876 1786L900 1760" stroke="#C82A3E" stroke-width="8" stroke-linecap="round"/>
+          <rect x="748" y="1876" width="190" height="46" rx="0" fill="#111F3A"/>
+          <text x="785" y="1906" fill="#FFFFFF" font-size="18" font-weight="800">Fixer-Uppers</text>
+        </g>
+        <g class="shadow">
+          <rect x="992" y="1648" width="230" height="294" rx="14" fill="#FFFFFF"/>
+          <rect x="1012" y="1668" width="190" height="208" rx="12" fill="#AEC7E7"/>
+          <path d="M1037 1820L1108 1760L1178 1820V1870H1037V1820Z" fill="#6A432F"/>
+          <rect x="1070" y="1808" width="82" height="62" fill="#D7B17D"/>
+          <path d="M1037 1820L1108 1760L1178 1820" stroke="#2A3958" stroke-width="10" stroke-linecap="round"/>
+          <rect x="1012" y="1876" width="190" height="46" rx="0" fill="#111F3A"/>
+          <text x="1073" y="1906" fill="#FFFFFF" font-size="18" font-weight="800">Luxury</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Calculator -->
+    <g id="Free Flip Calculator">
+      <rect x="120" y="2048" width="1200" height="640" fill="#FFFFFF"/>
+      <text x="483" y="2150" class="font title" fill="#111F3A" font-size="45">FREE FLIP CALCULATOR</text>
+      <text x="556" y="2192" class="font" fill="#111F3A" font-size="27" font-weight="500">Stop guessing your margins.</text>
+      <g id="Laptop illustration">
+        <path d="M210 2520L285 2236L494 2380L424 2520H210Z" fill="#111F3A"/>
+        <rect x="315" y="2260" width="430" height="260" rx="12" fill="#111F3A"/>
+        <rect x="337" y="2282" width="386" height="216" rx="4" fill="#EFF5F0"/>
+        <rect x="337" y="2282" width="386" height="26" fill="#4E9A69"/>
+        <rect x="272" y="2520" width="516" height="34" rx="17" fill="#D6DDE8"/>
+        <g stroke="#B8C4D4" stroke-width="2">
+          <path d="M367 2350H690"/>
+          <path d="M367 2382H690"/>
+          <path d="M367 2414H690"/>
+          <path d="M367 2446H690"/>
+          <path d="M430 2322V2475"/>
+          <path d="M548 2322V2475"/>
+          <path d="M620 2322V2475"/>
+        </g>
+        <rect x="558" y="2448" width="132" height="28" fill="#BFD8A8"/>
+      </g>
+      <g id="Spreadsheet preview" class="shadow">
+        <rect x="796" y="2254" width="360" height="254" rx="10" fill="#FFFFFF"/>
+        <rect x="796" y="2254" width="360" height="36" rx="10" fill="#4E9A69"/>
+        <rect x="796" y="2280" width="360" height="10" fill="#4E9A69"/>
+        <g stroke="#CBD5E1" stroke-width="2">
+          <path d="M820 2330H1130"/>
+          <path d="M820 2364H1130"/>
+          <path d="M820 2398H1130"/>
+          <path d="M820 2432H1130"/>
+          <path d="M820 2466H1130"/>
+          <path d="M935 2306V2488"/>
+          <path d="M1018 2306V2488"/>
+        </g>
+        <g class="font" font-size="14" fill="#111F3A">
+          <text x="826" y="2324">Purchase Price</text>
+          <text x="826" y="2358">Renovation Cost</text>
+          <text x="826" y="2392">Holding Cost</text>
+          <text x="826" y="2426">ARV</text>
+          <text x="826" y="2460">Estimated Profit</text>
+          <text x="1036" y="2460" font-weight="900">$31,000</text>
+        </g>
+      </g>
+      <rect x="840" y="2550" width="245" height="52" rx="5" fill="#C82A3E"/>
+      <text x="883" y="2583" class="font" fill="#FFFFFF" font-size="16" font-weight="900">DOWNLOAD NOW (.XLSX)</text>
+      <rect x="856" y="2620" width="213" height="46" rx="5" fill="#6B7280"/>
+      <text x="894" y="2650" class="font" fill="#FFFFFF" font-size="15" font-weight="900">HOW TO USE (TUTORIAL)</text>
+    </g>
+
+    <!-- Contact -->
+    <g id="Contact Section">
+      <rect x="120" y="2688" width="1200" height="592" fill="#FFFFFF"/>
+      <rect x="788" y="2688" width="532" height="592" fill="#111F3A"/>
+      <rect x="788" y="2688" width="532" height="292" fill="#DDE7F1"/>
+      <path d="M858 2926C952 2816 1090 2816 1250 2926V2980H858V2926Z" fill="#A9B7C8"/>
+      <path d="M942 2918L1018 2848L1094 2918V2980H942V2918Z" fill="#EFE0CB"/>
+      <path d="M942 2918L1018 2848L1094 2918" stroke="#8D6046" stroke-width="12"/>
+      <circle cx="1138" cy="2818" r="22" fill="#FFFFFF"/>
+      <path d="M1138 2838V2920" stroke="#C82A3E" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="1138" cy="2858" r="12" stroke="#C82A3E" stroke-width="6"/>
+      <g id="Contact form" class="font">
+        <text x="190" y="2810" fill="#111F3A" font-size="48" font-weight="900">LET'S CONNECT</text>
+        <text x="190" y="2850" fill="#111F3A" font-size="22" font-weight="500">For detailed inquiries, contact our team.</text>
+        <rect x="190" y="2902" width="242" height="42" rx="3" fill="#FFFFFF" stroke="#B8C4D4"/>
+        <rect x="448" y="2902" width="242" height="42" rx="3" fill="#FFFFFF" stroke="#B8C4D4"/>
+        <text x="208" y="2929" fill="#6A7280" font-size="14">Name</text>
+        <text x="466" y="2929" fill="#6A7280" font-size="14">Last name</text>
+        <rect x="190" y="2960" width="500" height="42" rx="3" fill="#FFFFFF" stroke="#B8C4D4"/>
+        <text x="208" y="2987" fill="#6A7280" font-size="14">Email</text>
+        <rect x="190" y="3018" width="500" height="42" rx="3" fill="#FFFFFF" stroke="#B8C4D4"/>
+        <text x="208" y="3045" fill="#6A7280" font-size="14">I am...</text>
+        <rect x="190" y="3076" width="500" height="112" rx="3" fill="#FFFFFF" stroke="#B8C4D4"/>
+        <text x="208" y="3104" fill="#6A7280" font-size="14">Message</text>
+        <rect x="190" y="3210" width="216" height="46" rx="4" fill="#C82A3E"/>
+        <text x="270" y="3240" fill="#FFFFFF" font-size="14" font-weight="900">SUBMIT</text>
+      </g>
+      <g id="Contact information" class="font">
+        <text x="866" y="3072" fill="#FFFFFF" font-size="30" font-weight="900">(407) 477-4444</text>
+        <text x="866" y="3136" fill="#FFFFFF" font-size="30" font-weight="900">apexhouzz.com</text>
+        <text x="866" y="3200" fill="#FFFFFF" font-size="30" font-weight="900">info@apexhouzz.com</text>
+        <circle cx="828" cy="3060" r="18" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+        <path d="M820 3052L835 3068" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="828" cy="3124" r="18" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+        <path d="M811 3124H845M828 3106C838 3118 838 3130 828 3142M828 3106C818 3118 818 3130 828 3142" stroke="#FFFFFF" stroke-width="3"/>
+        <path d="M810 3182H846V3214H810V3182Z" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+        <path d="M810 3182L828 3198L846 3182" stroke="#FFFFFF" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
